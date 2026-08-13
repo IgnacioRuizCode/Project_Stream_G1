@@ -1,3 +1,13 @@
+.root{
+    --color-fondo: #0D1B2A; /* Fondo general / Navbar */
+    --color-primario: #1E3A8A; /* Boton principal */
+    --color-secundario: #00B4DB; /* Hovers */
+    --color-detalle: #7B61FF; /* Elementos destacados */
+    --color-blanco: #FFFFFF;  /* Texto principal */
+    --color-metadata: #8D99AE; /* Texto secundario, descripciones, fechas */
+    --color-cards: #13243A; /* Cards / Secciones */
+}
+
 *{
     padding: 0;
     margin: 0;
