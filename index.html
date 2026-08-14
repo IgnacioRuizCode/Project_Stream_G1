@@ -14,6 +14,175 @@
 <body>
     
 
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#index.html">
+          <img
+            src="/assets/images/03_logo_sin_slogan.png"
+            alt="LOOP"
+            width="150"
+            height="70"
+          />
+        </a>
+        <button
+          class="navbar-toggler text-center"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/inicio/inicio.html">
+                      <i class="me-2"></i>Inicio
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/suscripcion/suscripcion.html">
+                      <i class="me-2"></i>Suscripción
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/error404/404.html">
+                      <i class="me-2"></i>Novedades
+                  </a>
+              </li>
+            </ul>
+            <form class="d-flex  ms-auto" role="search">
+              <div class="search-box">
+                <i class="bi bi-search"></i>
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Buscar canciones, artistas y más..."
+                  aria-label="Search"
+                />
+              </div>
+            </form>
+
+                    <a href="#" class="navbar1 nav-link login-link" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Iniciar Sesión
+                    </a>
+                     
+                  
+                  <button type="button" class="btn-suscribite">SUSCRIBITE</button>
+        
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="assets/images/banner-mobile-1.jpeg">
+            <source media="(max-width: 991.98px)" srcset="assets/images/banner desk nuevo.png">
+            <img src="/assets/images/banner desk nuevo.png" class="d-block w-100" alt="">
+        </picture>
+    </div>
+    <div class="carousel-item">
+            <picture>
+            <source media="(max-width: 575.98px)" srcset="assets/images/banner-mobile-2.jpeg">
+            <source media="(max-width: 991.98px)" srcset="assets/images/banner_02.png">
+            <img src="/assets/images/banner_02.png" class="d-block w-100" alt="">
+        </picture>
+    </div>
+    <div class="carousel-item">
+            <picture>
+            <source media="(max-width: 575.98px)" srcset="assets/images/banner-mobile-3.jpeg">
+            <source media="(max-width: 991.98px)" srcset="assets/images/banner_03.png">
+            <img src="/assets/images/banner_03.png" class="d-block w-100" alt="">
+        </picture>
+    </div>
+    <div class="carousel-item">
+            <picture>
+            <source media="(max-width: 575.98px)" srcset="assets/images/banner-mobile-4.jpeg">
+            <source media="(max-width: 991.98px)" srcset="assets/images/banner_04.png">
+            <img src="/assets/images/banner_04.png" class="d-block w-100" alt="">
+        </picture>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Iniciar sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form id="loginForm" class="">
+
+          <div class="mb-3">
+            <label for="login-email" class="col-form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="login-email"
+              placeholder="tu@email.com"
+              minlength="3"
+              maxlength="30"
+              required
+            >
+           
+          </div>
+
+          <div class="mb-3">
+            <label for="login-password" class="col-form-label">Contraseña:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="login-password"
+              placeholder="••••••••"
+              required minlength="8"
+              required maxlength="20"
+              required
+            >
+           
+          </div>
+
+          <div class="mb-3 form-check d-flex justify-content-between align-items-center">
+            <div>
+              <input type="checkbox" class="form-check-input" id="remember-me">
+              <label class="form-check-label" for="remember-me">Recordarme</label>
+            </div>
+            <a href="#" class="small">¿Olvidaste tu contraseña?</a>
+          </div>
+
+        </form>
+
+        <p class="text-center mt-3 mb-0">
+          ¿No tenés cuenta?
+          <a href="/Pages/suscripcion.html">Suscribite acá</a>
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" form="loginForm" formaction="/404.html" class="btn-suscribite">
+          Iniciar sesión
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
