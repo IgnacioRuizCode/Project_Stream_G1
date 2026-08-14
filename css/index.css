@@ -1,5 +1,5 @@
 :root{
-    --color-fondo: #0D1B2A; /* Fondo general / Navbar */
+    --color-fondo: #030b14; /* Fondo general / Navbar */
     --color-primario: #1E3A8A; /* Boton principal */
     --color-secundario: #00B4DB; /* Hovers */
     --color-detalle: #7B61FF; /* Elementos destacados */
@@ -12,4 +12,126 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.navbar{
+    background-color: var(--color-fondo);
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+@media (max-width: 991.98px) {
+  
+  .navbar-collapse.show {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  
+  .navbar-nav {
+    align-items: center;
+    gap: .5rem;
+    margin: 0 !important; 
+  }
+
+  .navbar-collapse.show form,
+  .navbar-collapse.show .navbar1,
+  .navbar-collapse.show .btn-suscribite {
+    width: 280px;
+    max-width: 90%;      
+    margin: 0 !important; 
+  }
+
+ 
+  .navbar-collapse.show .search-box,
+  .navbar-collapse.show .search-box input {
+    width: 280px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+.nav-link{
+    color: var(--color-blanco);
+}
+.navbar1{
+    margin-right: 25px;
+    color: var(--color-blanco);
+}
+.navbar1:hover{
+    color: var(--color-secundario)
+}
+
+@media (max-width: 991.98px) {
+    .navbar1{
+        display: block;
+        box-sizing: border-box;
+        width: 30%;
+        text-align: center;
+        padding: 8px 16px;
+        border: 1px solid #7b61ff;
+        border-radius: 6px;
+    }
+}
+
+.search-box{
+    position: relative;
+    width: 400px;
+    margin-right: 80px;
+}
+
+.search-box input{
+    padding-right: 40px; 
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;   
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
+
+.button{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn-suscribite{
+    background-image: linear-gradient(to right, #7b2fff, #00d9ff);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 991.98px) {
+    .btn-suscribite{
+        width: 30%;
+    }
+}
+
+
+.btn-suscribite:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(123, 47, 255, 0.4);
+}
+
+.carousel img{
+    width: 100%;
+    /* height: 350px; */
+    aspect-ratio: 16 / 4;
+    object-fit: cover;
+    object-position: center;
+}
+@media (max-width: 576px){
+    .carousel img { aspect-ratio: 3 / 6;}
 }
