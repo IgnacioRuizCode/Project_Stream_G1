@@ -39,7 +39,7 @@
   }
 
   .navbar-collapse.show form,
-  .navbar-collapse.show .navbar1,
+  /* .navbar-collapse.show .navbar1, */
   .navbar-collapse.show .btn-suscribite {
     width: 280px;
     max-width: 90%;      
@@ -59,17 +59,18 @@
 .nav-link{
     color: #FFFFFF;
 }
-.navbar1{
+/* .navbar1{
     margin-right: 25px;
     color: var(--color-blanco);
     display: none;
-}
+} */
 .navbar1:hover{
     color: var(--color-secundario)
 }
 
 @media (max-width: 991.98px) {
-    .navbar1{
+    /* .navbar1{
+        display: none;
         display: block;
         box-sizing: border-box;
         width: 30%;
@@ -77,7 +78,7 @@
         padding: 8px 16px;
         border: 1px solid #7b61ff;
         border-radius: 6px;
-    }
+    } */
 }
 
 .search-box{
