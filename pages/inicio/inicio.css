@@ -416,10 +416,24 @@ body{
 .player-offcanvas{
     background-color: #0d1b2a;
     color: #FFFFFF;
-    border-top: solid #7B61FF44;
+    border-top: 1px solid #7B61FF44;
     height: auto;
     max-height: 85vh;
 }
+
+.player-offcanvas .offcanvas-header{
+    border-bottom: 1px solid #ffffff11;
+    padding: 16px 20px;
+}
+
+.player-offcanvas .offcanvas-titulo{
+    font-size: 14px;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
 
 .siteFooter{
         background-color: #010713;
