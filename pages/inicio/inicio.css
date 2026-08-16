@@ -400,7 +400,13 @@ body{
     text-overflow: ellipsis;
 }
 
-
+.mini-play-control{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
 
 .siteFooter{
         background-color: #010713;
