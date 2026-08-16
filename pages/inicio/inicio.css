@@ -306,6 +306,23 @@ body{
     }
 }
 
+.mas-playlist{
+    padding: 40px 20px;
+}
+
+.mas-playlist-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mas-playlist-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
     }
