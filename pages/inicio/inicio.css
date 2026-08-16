@@ -486,6 +486,14 @@ body{
     overflow: hidden;
 }
 
+.player-progress-fill{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(to right, #1e3a8a, #00b4db);
+}
+
+
+
 .siteFooter{
         background-color: #010713;
         margin-bottom: 64px;
