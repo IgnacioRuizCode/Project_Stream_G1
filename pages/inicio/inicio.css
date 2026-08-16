@@ -463,7 +463,14 @@ body{
     margin: 4px 0 20px;
 }
 
-
+.player-progress{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 24px;
+}
 
 .siteFooter{
         background-color: #010713;
