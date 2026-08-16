@@ -376,6 +376,22 @@ body{
     object-fit: cover;
 }
 
+.mini-play-info{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1;
+}
+
+.mini-play-song{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 
 .siteFooter{
         background-color: #010713;
