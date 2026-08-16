@@ -353,6 +353,23 @@ body{
     }
 }
 
+.mini-play-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background-color: #111f33;
+    border-top: solid #7b61ff33;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 0 16px;
+    z-index: 1040;
+    cursor: pointer;
+}
+
+
 .siteFooter{
         background-color: #010713;
     }
