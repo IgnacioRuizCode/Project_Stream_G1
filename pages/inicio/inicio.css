@@ -502,7 +502,18 @@ body{
     margin-bottom: 20px;
 }
 
-
+.player-play-btn{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(to right, #1e3a8a, #00b4db);
+    color: #fff;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .siteFooter{
         background-color: #010713;
