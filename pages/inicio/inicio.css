@@ -433,7 +433,14 @@ body{
     letter-spacing: 1px;
 }
 
+.play-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 20px 32px;
 
+}
 
 .siteFooter{
         background-color: #010713;
