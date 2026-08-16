@@ -242,6 +242,10 @@ body{
     }
 }
 
+.playlist-loop{
+    padding: 40px 20px;
+}
+
 .siteFooter{
         background-color: #010713;
     }
