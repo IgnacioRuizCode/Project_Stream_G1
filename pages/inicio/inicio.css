@@ -272,22 +272,26 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    
 }
 
 .playlist-card{
     display: block;
-    border-radius: 12px;
+    border-radius: 20px 20px 20px 20px;
     overflow: hidden;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 5 / 5;
     transition: transform 0.2s ease;
-    height: auto;
+    /* height: auto; */
+    
 }
 
 .playlist-card img{
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px;
     object-fit: cover;
     display: block;
+    
 }
 
 .playlist-card:hover {
