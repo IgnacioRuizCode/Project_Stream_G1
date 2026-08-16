@@ -258,7 +258,10 @@ body{
     margin-bottom: 20px;
 }
 
-
+.playlist-titulo{
+    color: #FFFFFF;
+    font-size: 22px;
+}
 
 .siteFooter{
         background-color: #010713;
