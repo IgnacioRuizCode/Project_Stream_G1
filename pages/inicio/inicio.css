@@ -408,8 +408,16 @@ body{
     font-size: 18px;
 }
 
+.mini-player-play{
+    font-size: 26px;
+    color: #00B4DB;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
+        margin-bottom: 64px;
     }
 
     .footerContent{
