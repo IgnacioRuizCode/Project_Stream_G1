@@ -478,7 +478,13 @@ body{
     min-width: 32px;
 }
 
-
+.player-progress-bar{
+    flex: 1;
+    height: 4px;
+    background-color: #ffffff22;
+    border-radius: 2px;
+    overflow: hidden;
+}
 
 .siteFooter{
         background-color: #010713;
