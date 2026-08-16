@@ -392,6 +392,15 @@ body{
     text-overflow: ellipsis;
 }
 
+.mini-play-artist{
+    color: #aaa;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
 
 .siteFooter{
         background-color: #010713;
