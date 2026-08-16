@@ -246,6 +246,20 @@ body{
     padding: 40px 20px;
 }
 
+.playlist-inner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.playlist-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
     }
