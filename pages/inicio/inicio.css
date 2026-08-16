@@ -472,6 +472,14 @@ body{
     margin-bottom: 24px;
 }
 
+.player-time{
+    font-size: 12px;
+    color: #aaa;
+    min-width: 32px;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
         margin-bottom: 64px;
