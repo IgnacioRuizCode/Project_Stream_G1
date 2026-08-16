@@ -212,6 +212,19 @@
     font-size: 22px;
 }
 
+.gen-reggae{
+    background: linear-gradient(to right, #1b5e20, #2e7d32);
+}
+.gen-jazz{
+    background: linear-gradient(to right, #4a148c, #7b61ff);
+}
+.gen-tecno{
+    background: linear-gradient(to right, #0d1b2a, #1e3a8a);
+}
+.gen-samba{
+    background: linear-gradient(to right, #e65100, #f57c00);
+}
+
 .siteFooter{
         background-color: #010713;
     }
