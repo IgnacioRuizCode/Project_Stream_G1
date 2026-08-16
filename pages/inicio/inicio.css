@@ -515,6 +515,15 @@ body{
     justify-content: center;
 }
 
+.player-sec-controls{
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    color: #aaa;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
         margin-bottom: 64px;
