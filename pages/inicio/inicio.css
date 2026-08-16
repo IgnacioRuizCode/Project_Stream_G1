@@ -321,7 +321,21 @@ body{
     gap: 20px;
 }
 
+.playlist-card-wide{
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    transition: transform 0.2s ease;
+}
 
+.playlist-card-wide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
 
 .siteFooter{
         background-color: #010713;
