@@ -208,6 +208,10 @@
     color: var(--color-blanco);
 }
 
+.gen-icon{
+    font-size: 22px;
+}
+
 .siteFooter{
         background-color: #010713;
     }
