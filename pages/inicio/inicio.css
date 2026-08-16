@@ -169,6 +169,24 @@
     .carousel img { aspect-ratio: 3 / 6;}
 }
 
+.generos{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.gen-title{
+    color: var(--color-blanco);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.gen-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
 .siteFooter{
         background-color: #010713;
     }
