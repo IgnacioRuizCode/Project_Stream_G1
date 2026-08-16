@@ -451,6 +451,14 @@ body{
     margin-bottom: 20px;
 }
 
+.player-song{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
 .siteFooter{
         background-color: #010713;
         margin-bottom: 64px;
