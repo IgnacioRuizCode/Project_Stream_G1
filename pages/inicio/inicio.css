@@ -492,6 +492,16 @@ body{
     background: linear-gradient(to right, #1e3a8a, #00b4db);
 }
 
+.player-main-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 
 
 .siteFooter{
