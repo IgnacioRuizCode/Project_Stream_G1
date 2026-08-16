@@ -369,6 +369,13 @@ body{
     cursor: pointer;
 }
 
+.mini-play-cover{
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
 
 .siteFooter{
         background-color: #010713;
