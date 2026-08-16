@@ -413,7 +413,13 @@ body{
     color: #00B4DB;
 }
 
-
+.player-offcanvas{
+    background-color: #0d1b2a;
+    color: #FFFFFF;
+    border-top: solid #7B61FF44;
+    height: auto;
+    max-height: 85vh;
+}
 
 .siteFooter{
         background-color: #010713;
