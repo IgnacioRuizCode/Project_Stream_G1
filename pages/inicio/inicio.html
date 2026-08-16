@@ -248,7 +248,7 @@
     </div>
 </footer>
 
-    <div class="mini-play-bar" data-bs-toggle="offcanvas" data-bs-target="#playerOffcanvas">
+    <div class="mini-play-bar" data-bs-toggle="offcanvas" data-bs-target="#playerOffcanvas" aria-controls="playerOffcanvas">
         <img src="/assets/audio/Reggae/We Must Be Dub - Tony Greene.png" alt="">
         <div class="mini-play-info">
             <span class="mini-play-song">We Must Be Dub</span>
@@ -261,10 +261,12 @@
         </div>
     </div>
 
-    <div class="offcanvas offcanvas-bottom player-offcanvas" tabindex="-1" id="playerOffcanvas">
+    <div class="offcanvas offcanvas-bottom player-offcanvas" tabindex="-1" id="playerOffcanvas" aria-labelledby="playerOffcanvasLabel">
         <div class="offcanvas-header">
             <span class="offcanvas-titulo" id="playerOffcanvasLabel">Reproduciendo ahora</span>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+        <div class="offcanvas-body play-body"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
