@@ -417,8 +417,8 @@ body{
     background-color: #0d1b2a;
     color: #FFFFFF;
     border-top: 1px solid #7B61FF44;
-    height: auto;
-    max-height: 85vh;
+    height: 55dvh !important;
+    max-height: 55dvh !important;
 }
 
 .player-offcanvas .offcanvas-header{
@@ -438,17 +438,16 @@ body{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 24px 20px 32px;
-
+    padding: 16px 20px 20px;
 }
 
 .player-cover{
-    width: 220px;
-    height: 220px;
+    width: 50px;
+    height: 50px;
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .player-song{
@@ -460,7 +459,7 @@ body{
 .player-artist{
     color: #aaa;
     font-size: 14px;
-    margin: 4px 0 20px;
+    margin: 4px 0 12px;
 }
 
 .player-progress{
@@ -469,7 +468,7 @@ body{
     gap: 10px;
     width: 100%;
     max-width: 400px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .player-time{
@@ -499,7 +498,7 @@ body{
     gap: 24px;
     font-size: 22px;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .player-play-btn{
@@ -522,7 +521,15 @@ body{
     color: #aaa;
 }
 
-
+@media (max-width: 992px){
+    .player-offcanvas{
+        max-width: 480px;
+        margin: 0 auto;
+        border-radius: 16px 16px 0 0;
+        left: 0;
+        right: 0;
+    }
+}
 
 .siteFooter{
         background-color: #010713;
