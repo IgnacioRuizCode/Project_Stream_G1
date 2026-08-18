@@ -235,6 +235,23 @@ body{
     font-size: 14px;
 }
 
+.playlist-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+
+.playlist-card{
+    display: block;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    aspect-ratio: 5 / 5;
+    transition: transform 0.2s ease;
+    /* height: auto; */
+    
+}
+
 .siteFooter{
         background-color: #010713;
     }
