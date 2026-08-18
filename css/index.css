@@ -299,6 +299,21 @@ body{
   padding: 16px;
 }
 
+.playlist-card.premium-locked:hover .premium-overlay {
+  transform: translateY(0);
+}
+
+.premium-icon {
+  font-size: 28px;
+  color: #00B4DB;
+}
+
+.premium-text {
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 .siteFooter{
         background-color: #010713;
     }
