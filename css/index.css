@@ -339,6 +339,7 @@ body{
 
 .playlist-card-wide{
     display: block;
+    position: relative;
     border-radius: 12px;
     overflow: hidden;
     aspect-ratio: 6 / 3;
@@ -355,6 +356,10 @@ body{
 
 .playlist-card-wide:hover {
     transform: scale(1.03);
+}
+
+.playlist-card-wide:hover .premium-overlay{
+    opacity: 1;
 }
 
 @media (max-width: 991.98px) {
