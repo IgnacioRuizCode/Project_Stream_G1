@@ -218,6 +218,18 @@ body{
     margin: 0 auto;
 }
 
+.playlist-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.playlist-titulo{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
 .siteFooter{
         background-color: #010713;
     }
