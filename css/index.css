@@ -171,6 +171,11 @@
     transition: transform 0.2s ease;
 }
 
+.gen-card:hover{
+    transform: scale(1.02);
+    color: var(--color-blanco);
+}
+
 .siteFooter{
         background-color: #010713;
     }
