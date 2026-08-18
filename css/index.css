@@ -265,6 +265,18 @@ body{
     transform: scale(1.03);
 }
 
+@media (max-width: 991.98) {
+    .playlist-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px) {
+    .playlist-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .siteFooter{
         background-color: #010713;
     }
