@@ -154,6 +154,23 @@
     gap: 20px;
 }
 
+.gen-card{
+    display: block;
+    position: relative;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: var(--color-blanco);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: transform 0.2s ease;
+}
+
 .siteFooter{
         background-color: #010713;
     }
