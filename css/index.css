@@ -193,6 +193,18 @@
     background: linear-gradient(to right, #e65100, #f57c00);
 }
 
+@media (max-width: 991.98px){
+    .gen-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575.98px){
+    .gen-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
 .siteFooter{
         background-color: #010713;
     }
