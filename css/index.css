@@ -261,6 +261,10 @@ body{
     
 }
 
+.playlist-card:hover {
+    transform: scale(1.03);
+}
+
 .siteFooter{
         background-color: #010713;
     }
