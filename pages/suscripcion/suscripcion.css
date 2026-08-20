@@ -172,7 +172,7 @@ body{
     padding: 24px;
     text-align: center;
 }
-.estudiantil-bg { background-color: #06b6d4; color: #000; }
+.estudiantil-bg { background-color: #06b6d4; color: #fff; }
 .premium-bg { background-color: #8b5cf6; color: #fff; }
 .familiar-bg{ background-color: #1E3A8A; color: #fff;}
 
@@ -231,7 +231,7 @@ body{
     filter: brightness(1.2);
 }
 
-.estudiantil-btn { background-color: #06b6d4; color: #000; }
+.estudiantil-btn { background-color: #06b6d4; color: #fff; }
 .premium-btn { background-color: #8b5cf6; color: #fff; }    
 .familiar-btn { background-color: #1E3A8A; color: #fff;}
 
