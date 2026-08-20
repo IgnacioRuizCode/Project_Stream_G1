@@ -33,3 +33,25 @@ color: var(--color-detalle);
 }
 
 
+nav[aria-label="Page navigation jazz"] .page-link {
+    background-color: var(--color-fondo);
+    border-color:  #2d3348;
+    color: #8ab4f8;
+    transition: all 0.2s ease;
+    
+}
+
+
+nav[aria-label="Page navigation jazz"] .page-link:hover{
+    background-color: var(--color-detalle);
+    color: #0a0a0a;
+    border-color: var(--color-detalle);
+   
+}
+
+nav[aria-label="Page navigation jazz"] .page-item.disabled .page-link {
+    background-color: #14161f;
+    color: #4a4f63;
+    border-color: #2d3348;
+}
+
