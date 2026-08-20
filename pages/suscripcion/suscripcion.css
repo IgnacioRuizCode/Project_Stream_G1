@@ -268,6 +268,44 @@ body{
     border-radius: 16px 16px 0 0;
 }
 
+
+@media (max-width: 991.98px) {
+    
+   
+    .planes-grid {
+        grid-template-columns: 1fr;
+        gap: 45px; 
+        max-width: 420px; 
+        margin: 40px auto; 
+    }
+
+    .plan-recomendado {
+        transform: scale(1); 
+        overflow: visible !important; 
+    }
+
+    
+    .plan-card:hover {
+        transform: translateY(-8px); 
+    }
+
+    .plan-recomendado:hover {
+        transform: translateY(-8px); 
+        box-shadow: 0 12px 30px rgba(139, 92, 246, 0.4); 
+    }
+    
+    
+    .planes-header h2 {
+        font-size: 26px;
+        padding: 0 15px;
+    }
+    
+    .planes-header p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+}
+
 .siteFooter{
         background-color: #010713;
     }
@@ -364,3 +402,4 @@ body{
         grid-template-columns: 1fr;
     }
 }
+
