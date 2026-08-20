@@ -152,3 +152,40 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
     border-color: #3b82f6;
 }
+.plan-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.plan-features li {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-label {
+    font-size: 11px;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.feature-value {
+    font-size: 14px;
+    color: #f1f5f9;
+}
+
+.plan-action {
+    margin-top: auto; 
+    width: 100%;
+}
