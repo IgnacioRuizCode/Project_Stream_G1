@@ -146,3 +146,9 @@
     transition: all 0.3s ease;
     border: 2px solid transparent;
 }
+
+.plan-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    border-color: #3b82f6;
+}
