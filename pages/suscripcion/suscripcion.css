@@ -152,6 +152,13 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
     border-color: #3b82f6;
 }
+.plan-top {
+    padding: 24px;
+    text-align: center;
+}
+.estudiantil-bg { background-color: #06b6d4; color: #000; }
+.premium-bg { background-color: #8b5cf6; color: #fff; }
+
 .plan-body {
     padding: 24px;
     display: flex;
@@ -204,3 +211,6 @@
 .btn-elegir:hover {
     filter: brightness(1.2);
 }
+
+.estudiantil-btn { background-color: #06b6d4; color: #000; }
+.premium-btn { background-color: #8b5cf6; color: #fff; }    
