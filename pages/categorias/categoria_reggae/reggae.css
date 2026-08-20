@@ -33,60 +33,85 @@ color: var(--color-detalle);
 }
 
 
-nav[aria-label="Page navigation jazz"] .page-link {
-    background-color: var(--color-fondo);
-    border-color:  #2d3348;
-    color: #8ab4f8;
-    transition: all 0.2s ease;
-    
+.search-box{
+    position: relative;
+    width: 400px;
+    margin-right: 80px;
 }
 
-
-nav[aria-label="Page navigation jazz"] .page-link:hover{
-    background-color: var(--color-detalle);
-    color: #0a0a0a;
-    border-color: var(--color-detalle);
-   
+.search-box input{
+    padding-right: 40px; 
 }
 
-nav[aria-label="Page navigation jazz"] .page-item.disabled .page-link {
-    background-color: #14161f;
-    color: #4a4f63;
-    border-color: #2d3348;
+.search-box i{
+    position: absolute;
+    right: 15px;   
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
 }
 
-
-
-.navbar{
-    background-color: var(--color-fondo);
-    position: sticky;
-    top: 0;
-    z-index: 1030;
+.button{
+    margin-left: 25px;
+    margin-right: 25px;
 }
+
+.btn-suscribite{
+    background-image: linear-gradient(to right, #7b2fff, #00d9ff);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
 
 @media (max-width: 991.98px) {
-  
-  .navbar-collapse.show {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem 0;
+    .btn-suscribite{
+        width: 30%;
+    }
+}
+
+
+.btn-suscribite:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(123, 47, 255, 0.4);
+}
+
+.dropdown-menu {
+  background-color: #0D1B2A;
+  border: 1px solid #7B61FF44;  
+  border-radius: .5rem;
+  padding: .5rem;
+  margin-top: .1rem !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
   }
 
-  
-  .navbar-nav {
-    align-items: center;
-    gap: .5rem;
-    margin: 0 !important; 
+.dropdown-item {
+  color: #fff;
+  border-radius: .375rem;
+  padding: .5rem .75rem;
+  transition: 0.2s ease;
   }
 
-  .navbar-collapse.show form,
-  /* .navbar-collapse.show .navbar1, */
-  .navbar-collapse.show .btn-suscribite {
-    width: 280px;
-    max-width: 90%;      
-    margin: 0 !important; 
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #1E3A8A;   
+  color: #fff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: linear-gradient(to right, #1E3A8A, #00B4DB); 
+  color: #fff;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #7B61FF33;
+}
+
+
   }
 
  
