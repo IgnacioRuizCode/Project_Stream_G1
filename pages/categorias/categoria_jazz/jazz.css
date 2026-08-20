@@ -16,12 +16,23 @@
 body{
     background-color: #030b14;
 }
-
+.titulo-jazz{
+    color:var(--color-blanco);
+}
+.titulo-jazz:hover{
+color: var(--color-detalle);
+}
+.row-hover:hover{
+ background-color: var(--color-cards);
+}
 .navbar{
     background-color: var(--color-fondo);
     position: sticky;
     top: 0;
     z-index: 1030;
+}
+span{
+    color: aliceblue;
 }
 
 @media (max-width: 991.98px) {
