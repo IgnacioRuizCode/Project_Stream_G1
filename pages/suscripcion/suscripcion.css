@@ -129,7 +129,16 @@ body{
     box-shadow: 0 5px 15px rgba(123, 47, 255, 0.4);
 }
 
+.planes-header{
+    text-align: center;
+}
 
+.planes-header h2{
+    color: #00d9ff;
+}
+.planes-header p{
+    color: #fff;
+}
 
 .planes-grid {
     display: grid;
@@ -165,6 +174,7 @@ body{
 }
 .estudiantil-bg { background-color: #06b6d4; color: #000; }
 .premium-bg { background-color: #8b5cf6; color: #fff; }
+.familiar-bg{ background-color: #1E3A8A; color: #fff;}
 
 .plan-body {
     padding: 24px;
@@ -223,6 +233,7 @@ body{
 
 .estudiantil-btn { background-color: #06b6d4; color: #000; }
 .premium-btn { background-color: #8b5cf6; color: #fff; }    
+.familiar-btn { background-color: #1E3A8A; color: #fff;}
 
 .plan-recomendado {
     border: 2px solid #8b5cf6;
