@@ -123,3 +123,45 @@ nav[aria-label="Page navigation jazz"] .page-item.disabled .page-link {
         border-radius: 6px;
     } */
 }
+
+.search-box{
+    position: relative;
+    width: 400px;
+    margin-right: 80px;
+}
+
+.search-box input{
+    padding-right: 40px; 
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;   
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
+
+.button{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn-suscribite{
+    background-image: linear-gradient(to right, #7b2fff, #00d9ff);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 991.98px) {
+    .btn-suscribite{
+        width: 30%;
+    }
+}
+
+
