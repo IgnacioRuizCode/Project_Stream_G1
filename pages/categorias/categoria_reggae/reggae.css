@@ -13,3 +13,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #030b14;
+}
+
+.titulo-jazz{
+    color:var(--color-blanco);
+}
+
+span{
+    color: var(--color-blanco);
+}
+.titulo-jazz:hover{
+color: var(--color-detalle);
+}
+.row-hover:hover{
+ background-color: var(--color-cards);
+}
+
+
