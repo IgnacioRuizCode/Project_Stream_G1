@@ -86,14 +86,14 @@ color: var(--color-detalle);
   padding: .5rem;
   margin-top: .1rem !important;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  }
+}
 
 .dropdown-item {
   color: #fff;
   border-radius: .375rem;
   padding: .5rem .75rem;
   transition: 0.2s ease;
-  }
+}
 
 .dropdown-item:hover,
 .dropdown-item:focus {
@@ -126,7 +126,7 @@ color: var(--color-detalle);
         max-width: 1200px;
         margin: 0 auto;
         padding: 50px 20px;
-  }
+    }
 
 
     .footerColumn img{
