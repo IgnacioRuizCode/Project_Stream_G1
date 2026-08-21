@@ -195,3 +195,16 @@ body{
     font-size: 16px;
     line-height: 1.7;
 }
+
+.contacto-contenido {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 35px;
+}
+
+
+.contacto-informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
