@@ -83,3 +83,22 @@ body{
         border-radius: 6px;
     } 
 }
+
+.search-box{
+    position: relative;
+    width: 400px;
+    margin-right: 80px;
+}
+
+.search-box input{
+    padding-right: 40px; 
+}
+
+.search-box i{
+    position: absolute;
+    right: 15px;   
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
