@@ -208,3 +208,23 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+
+.contacto-card{
+    background-color: #263c55;
+    padding: 25px;
+
+    border-radius: 15px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+    transition: 0.3s;
+}
+
+.contacto-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-detalle);
+}
