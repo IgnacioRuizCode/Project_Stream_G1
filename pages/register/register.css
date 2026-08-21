@@ -236,6 +236,10 @@ body{
     background-color: #7c3aed;
 }
 
+.btn-suscribite{
+    text-decoration: none;
+}
+
 @media (max-width: 575.98px) {
     .form-row {
         grid-template-columns: 1fr;
