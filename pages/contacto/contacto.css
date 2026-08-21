@@ -161,3 +161,18 @@ body{
 .dropdown-divider {
   border-top: 1px solid #7B61FF33;
 }
+
+.contacto {
+    padding: 80px 30px;
+}
+
+.contacto-contenedor {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contacto-encabezado {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
