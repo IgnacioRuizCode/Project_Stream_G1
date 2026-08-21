@@ -17,6 +17,96 @@
 body{
     background-color: #030b14;
 }
+nav[aria-label="Page navigation jazz"] .page-link {
+    background-color: var(--color-fondo);
+    border-color:  #2d3348;
+    color: #8ab4f8;
+    transition: all 0.2s ease;
+    
+}
+
+
+nav[aria-label="Page navigation jazz"] .page-link:hover{
+    background-color: var(--color-detalle);
+    color: #0a0a0a;
+    border-color: var(--color-detalle);
+   
+}
+
+nav[aria-label="Page navigation jazz"] .page-item.disabled .page-link {
+    background-color: #14161f;
+    color: #4a4f63;
+    border-color: #2d3348;
+}
+
+
+
+.navbar{
+    background-color: var(--color-fondo);
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
+@media (max-width: 991.98px) {
+  
+  .navbar-collapse.show {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  
+  .navbar-nav {
+    align-items: center;
+    gap: .5rem;
+    margin: 0 !important; 
+  }
+
+  .navbar-collapse.show form,
+  /* .navbar-collapse.show .navbar1, */
+  .navbar-collapse.show .btn-suscribite {
+    width: 280px;
+    max-width: 90%;      
+    margin: 0 !important; 
+  }
+
+ 
+  .navbar-collapse.show .search-box,
+  .navbar-collapse.show .search-box input {
+    width: 280px;
+    box-sizing: border-box;
+  }
+}
+
+
+
+.nav-link{
+    color: #FFFFFF;
+}
+/* .navbar1{
+    margin-right: 25px;
+    color: var(--color-blanco);
+    display: none;
+} */
+.navbar1:hover{
+    color: var(--color-secundario)
+}
+
+@media (max-width: 991.98px) {
+    /* .navbar1{
+        display: none;
+        display: block;
+        box-sizing: border-box;
+        width: 30%;
+        text-align: center;
+        padding: 8px 16px;
+        border: 1px solid #7b61ff;
+        border-radius: 6px;
+    } */
+}
 
 .titulo-jazz{
     color:var(--color-blanco);
