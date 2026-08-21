@@ -305,3 +305,18 @@ body{
 
     transition: 0.3s;
 }
+
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: var(--color-metadata);
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: var(--color-secundario);
+}
+
+.campo input:invalid:not(:placeholder-shown),
+.campo textarea:invalid:not(:placeholder-shown) {
+    border-color: #ff5c8a;
+}
