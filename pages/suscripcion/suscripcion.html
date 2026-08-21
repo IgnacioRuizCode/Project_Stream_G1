@@ -7,11 +7,315 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./suscripcion.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./suscripcion.css">
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#index.html">
+          <img
+            src="/assets/images/03_logo_sin_slogan.png"
+            alt="LOOP"
+            width="150"
+            height="70"
+          />
+        </a>
+        <button
+          class="navbar-toggler text-center"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/inicio/inicio.html">
+                      <i class="me-2"></i>Inicio
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/suscripcion/suscripcion.html">
+                      <i class="me-2"></i>Suscripción
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/pages/error404/404.html">
+                      <i class="me-2"></i>Novedades
+                  </a>
+              </li>
+            </ul>
+            <form class="d-flex  ms-auto" role="search">
+              <div class="search-box">
+                <i class="bi bi-search"></i>
+                <input
+                  class="form-control"
+                  type="search"
+                  placeholder="Buscar canciones, artistas y más..."
+                  aria-label="Search"
+                />
+              </div>
+            </form>
+
+                    <a href="#" class="navbar1 nav-link login-link" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Iniciar Sesión
+                    </a>
+                     
+                  
+                  <button type="button" class="btn-suscribite">SUSCRIBITE</button>
+        
+        </div>
+      </div>
+    </nav>
+
+    <div class="planes-container">
+        <div class="planes-header">
+            <h2>Planes de suscripcion LOOP</h2>
+            <p>Elegí el plan que mejor se adapte a tu forma de escuchar música</p>
+        </div>
+
+        <div class="planes-grid">
+            <div class="plan-card">
+                <div class="plan-top estudiantil-bg">
+                    <h3>LOOP Estudiantil</h3>
+                </div>
+                <div class="plan-body">
+                    <h4 class="plan-price">$2.99 <span class="plan-price">/ mes</span></h4>
+                    <ul class="plan-features">
+                        <li>
+                            <span class="feature-label">REQUISITO</span>
+                            <span class="feature-value">Verificar condición de estudiante</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">ANUNCIOS</span>
+                            <span class="feature-value">Sin anuncios</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">CALIDAD DE AUDIO</span>
+                            <span class="feature-value">Alta calidad (320kbps)</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">DESCARGA OFFLINE</span>
+                            <span class="feature-value">Si, hasta 3 dispositivos</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">SALTOS DE CANCIÓN</span>
+                            <span class="feature-value">Ilimitados</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">PERFILES INCLUIDOS</span>
+                            <span class="feature-value">1</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">EXTRA</span>
+                            <span class="feature-value">Renovación anual de verificación</span>
+                        </li>
+                    </ul>
+                    <div class="plan-action">
+                        <button class="btn-elegir estudiantil-btn">¡Lo quiero!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="plan-card plan-recomendado">
+                <span class="badge-recomendado">RECOMENDADO</span>
+                <div class="plan-top premium-bg">
+                    <h3>LOOP Premium</h3>
+                </div>
+                <div class="plan-body">
+                    <h4 class="plan-price">$5.99 <span>/ mes</span></h4>
+                    <ul class="plan-features">
+                    <li>
+                        <span class="feature-label">REQUISITO</span>
+                        <span class="feature-value">Ninguno</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">ANUNCIOS</span>
+                        <span class="feature-value">Sin anuncios</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">CALIDAD DE AUDIO</span>
+                        <span class="feature-value">Alta calidad + Lossless</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">DESCARGA OFFLINE</span>
+                        <span class="feature-value">Si, sin limite de dispositivos</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">SALTOS DE CANCIÓN</span>
+                        <span class="feature-value">Ilimitados</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">PERFILES INCLUIDOS</span>
+                        <span class="feature-value">1</span>
+                    </li>
+                    <li>
+                        <span class="feature-label">EXTRA</span>
+                        <span class="feature-value">Acceso anticipado a lanzamientos</span>
+                    </li>
+                    </ul>
+                    <div class="plan-action">
+                    <button class="btn-elegir premium-btn">Elegir Premium</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plan-card">
+                <div class="plan-top familiar-bg">
+                    <h3>LOOP Familiar</h3>
+                </div>
+                <div class="plan-body">
+                    <h4 class="plan-price">$9.99 <span class="plan-price">/ mes</span></h4>
+                    <ul class="plan-features">
+                        <li>
+                            <span class="feature-label">REQUISITO</span>
+                            <span class="feature-value">Misma dirección de facturación</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">ANUNCIOS</span>
+                            <span class="feature-value">Sin anuncios</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">CALIDAD DE AUDIO</span>
+                            <span class="feature-value">Alta calidad + Lossless</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">DESCARGA OFFLINE</span>
+                            <span class="feature-value">Si, para todos los perfiles</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">SALTOS DE CANCIÓN</span>
+                            <span class="feature-value">Ilimitados</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">PERFILES INCLUIDOS</span>
+                            <span class="feature-value">Hasta 6, c/u con su biblioteca</span>
+                        </li>
+                        <li>
+                            <span class="feature-label">EXTRA</span>
+                            <span class="feature-value">Control parental para menores</span>
+                        </li>
+                    </ul>
+                    <div class="plan-action">
+                        <button class="btn-elegir familiar-btn">¡Lo quiero!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="siteFooter">
+    <div class="footerContent ">
+        <div class="footerColumn">
+            <a href="">
+                <img src="/assets/images/logo-footer.png" alt="">
+            </a>
+        </div>
+    
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Iniciar sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form id="loginForm" class="">
+
+          <div class="mb-3">
+            <label for="login-email" class="col-form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="login-email"
+              placeholder="tu@email.com"
+              minlength="3"
+              maxlength="30"
+              required
+            >
+           
+          </div>
+
+          <div class="mb-3">
+            <label for="login-password" class="col-form-label">Contraseña:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="login-password"
+              placeholder="••••••••"
+              required minlength="8"
+              required maxlength="20"
+              required
+            >
+           
+          </div>
+
+          <div class="mb-3 form-check d-flex justify-content-between align-items-center">
+            <div>
+              <input type="checkbox" class="form-check-input" id="remember-me">
+              <label class="form-check-label" for="remember-me">Recordarme</label>
+            </div>
+            <a href="#" class="small">¿Olvidaste tu contraseña?</a>
+          </div>
+
+        </form>
+
+        <p class="text-center mt-3 mb-0">
+          ¿No tenés cuenta?
+          <a href="/Pages/suscripcion.html">Suscribite acá</a>
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button onclick="window.location.href='inicio.html'" type="submit" form="loginForm"  class="btn-suscribite">
+          Iniciar sesión
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+        <div class="footerColumn">
+            <h4>Seguinos</h4>
+            <div class="socialIcons">
+                <a href="https://www.instagram.com/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="www.linkedin.com/in/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://x.com/">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footerColumn">
+            <h4>Enlaces</h4>
+            <div class="d-flex flex-column justify-content-center">
+                <a href="#pages/nosotros.html">Acerca de nosotros</a>
+                <a href="#pages/contacto.html">Contacto</a>
+                <a href="#pages/404.html">FAQs</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footerBottom">
+        <p>&copy; 2026 LOOP. All rights deserved.</p>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
