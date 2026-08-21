@@ -398,3 +398,17 @@ body{
 .footerColumn a:hover{
     color: #22D3EE;
 }
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.socialIcons a{
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+}
