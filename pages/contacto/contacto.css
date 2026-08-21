@@ -268,3 +268,20 @@ body{
     font-size: 24px;
     margin-bottom: 25px;
 }
+
+.contacto-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.campo label {
+    color: var(--color-blanco);
+    font-size: 14px;
+    font-weight: 500;
+}
