@@ -320,3 +320,13 @@ body{
 .campo textarea:invalid:not(:placeholder-shown) {
     border-color: #ff5c8a;
 }
+
+.campo input:valid,
+.campo textarea:valid {
+    border-color: var(--color-detalle);
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 140px;
+}
