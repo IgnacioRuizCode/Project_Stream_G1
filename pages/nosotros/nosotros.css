@@ -277,6 +277,19 @@ body{
         grid-template-columns: 1fr;
     }
 
+.siteFooter{
+        background-color: #010713;
+    }
 
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 50px 20px;
+    }
     
 
