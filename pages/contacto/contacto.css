@@ -380,3 +380,21 @@ body{
         height: 150px;
         width: auto;
 }
+
+.footerColumn h4{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footerColumn a{
+    display: inline-block; 
+    color: var(--color-blanco);
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footerColumn a:hover{
+    color: #22D3EE;
+}
