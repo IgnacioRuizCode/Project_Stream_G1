@@ -176,3 +176,22 @@ body{
     max-width: 700px;
     margin: 0 auto 60px;
 }
+
+.contacto-etiqueta {
+    color: var(--color-detalle);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.contacto-encabezado h1 {
+    color: var(--color-blanco);
+    font-size: 42px;
+    margin: 10px 0 15px;
+}
+
+.contacto-encabezado p {
+    color: var(--color-blanco);
+    font-size: 16px;
+    line-height: 1.7;
+}
