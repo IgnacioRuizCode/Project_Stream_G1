@@ -349,3 +349,9 @@ body{
 
     transition: 0.3s;
 }
+
+.boton-enviar:hover {
+    background-color: var(--color-secundario);
+    transform: translateY(-2px);
+}
+
