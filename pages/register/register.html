@@ -80,38 +80,42 @@
         <h2 class="registro-titulo">Estás a un paso de <span class="plan-destacado">LOOP Premium</span></h2>
         <p class="registro-subtitulo">Completá tus datos para crear tu cuenta LOOP</p>
 
-        <form id="form-registro" class="form-loop" novalidate>
+        <form id="form-registro" class="form-loop">
             
             <div class="form-row">
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Ingresá tu nombre">
-                    <small class="error-msg"></small>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresá tu nombre" minlength="1" maxlength="20" required>
+                    
                 </div>
 
                 <div class="form-group">
                     <label for="apellido">Apellido</label>
-                    <input type="text" id="apellido" placeholder="Ingresá tu apellido">
-                    <small class="error-msg"></small>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingresá tu apellido" minlength="1" maxlength="20" required>
+                    
                 </div>
             </div>
 
             <div class="form-group">
                 <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="tu@email.com">
-                <small class="error-msg"></small>
+                <input type="email" class="form-control" id="email" placeholder="tu@email.com" minlength="3" maxlength="30" required>
+                
             </div>
 
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Creá una contraseña">
-                <small class="error-msg"></small>
+                <input type="password" class="form-control" id="password" placeholder="Creá una contraseña" 
+                required minlength="8" 
+                required maxlength="20">
+                
             </div>
 
             <div class="form-group">
                 <label for="repetir-password">Repetir Password</label>
-                <input type="password" id="repetir-password" placeholder="Confirmá tu contraseña">
-                <small class="error-msg"></small>
+                <input type="password" class="form-control" id="repetir-password" placeholder="Confirmá tu contraseña" 
+                required minlength="8" 
+                required maxlength="20">
+                
             </div>
 
             <button type="submit" class="btn-registrarse">Registrarse</button>
