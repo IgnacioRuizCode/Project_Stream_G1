@@ -157,8 +157,8 @@ body{
 }
 
 
-.titulo-sobre-nosotros span {
-    color: var(--color-blanco);
+.titulo-sobre-nosotros{
+    color: #FFFFFF;
 }
 
 
