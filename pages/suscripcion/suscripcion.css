@@ -225,13 +225,17 @@ body{
     font-size: 16px;
     cursor: pointer;
     transition: 0.2s;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .btn-elegir:hover {
     filter: brightness(1.2);
 }
 
-.estudiantil-btn { background-color: #06b6d4; color: #fff; }
+.estudiantil-btn { background-color: #06b6d4; color: #fff; text-decoration: none; }
 .premium-btn { background-color: #8b5cf6; color: #fff; }    
 .familiar-btn { background-color: #1E3A8A; color: #fff;}
 
@@ -323,10 +327,6 @@ body{
 
 
     .footerColumn img{
-    /*  font-family: 'Poppins', sans-serif;
-        color: #22D3EE;
-        margin-bottom: 15px;
-        font-size: 20px; */
         height: 150px;
         width: auto;
 }

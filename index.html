@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LOOP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#index.html">
+        <a class="navbar-brand" href="./index.html">
           <img
             src="/assets/images/03_logo_sin_slogan.png"
             alt="LOOP"
@@ -39,7 +39,7 @@
         
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
-                  <a class="nav-link" href="/pages/inicio/inicio.html">
+                  <a class="nav-link" href="./index.html">
                       <i class="me-2"></i>Inicio
                   </a>
               </li>
@@ -71,13 +71,13 @@
                     </a>
                      
                   
-                  <button type="button" class="btn-suscribite">SUSCRIBITE</button>
+                  <a href="./pages/suscripcion/suscripcion.html" type="button" class="btn-suscribite">SUSCRIBITE</a>
         
         </div>
       </div>
     </nav>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <picture>
@@ -109,11 +109,11 @@
     </div>
     
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -276,9 +276,9 @@
 
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-        <button onclick="window.location.href='inicio.html'" type="submit" form="loginForm"  class="btn-suscribite">
+        <a href="./pages/inicio/inicio.html" type="submit" form="loginForm"  class="btn-suscribite">
           Iniciar sesión
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -316,9 +316,9 @@
         <div class="footerColumn">
             <h4>Enlaces</h4>
             <div class="d-flex flex-column justify-content-center">
-                <a href="#pages/nosotros.html">Acerca de nosotros</a>
-                <a href="#pages/contacto.html">Contacto</a>
-                <a href="#pages/404.html">FAQs</a>
+                <a href="pages/nosotros/nosotros.html">Acerca de nosotros</a>
+                <a href="pages/contacto/contacto.html">Contacto</a>
+                <a href="pages/error404/404.html">FAQs</a>
             </div>
         </div>
 
