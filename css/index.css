@@ -114,6 +114,7 @@ body{
     border-radius: 8px;
     padding: 10px 20px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 
@@ -165,6 +166,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     color: var(--color-blanco);
+    text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     padding: 0 20px;
@@ -249,7 +251,7 @@ body{
     overflow: hidden;
     aspect-ratio: 5 / 5;
     transition: transform 0.2s ease;
-    /* height: auto; */
+    
     
 }
 
@@ -295,8 +297,6 @@ body{
   justify-content: center;
   gap: 10px;
   background-color: rgba(13, 27, 42, 0.85);
-  /* background: linear-gradient(to top, rgba(13,27,42,0.60) 40%, rgba(13,27,42,0.1)); */
-  /* transform: translateY(100%); */
   opacity: 0;
   transition: opacity 0.3s ease;
   text-align: center;
@@ -381,8 +381,7 @@ body{
     .footerContent{
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-        /* grid-template-columns: repeat(3, 1fr); */ 
+        flex-wrap: wrap; 
         gap: 30px;
         max-width: 1200px;
         margin: 0 auto;
@@ -391,10 +390,6 @@ body{
 
 
     .footerColumn img{
-    /*  font-family: 'Poppins', sans-serif;
-        color: #22D3EE;
-        margin-bottom: 15px;
-        font-size: 20px; */
         height: 150px;
         width: auto;
 }
@@ -443,7 +438,6 @@ body{
     .footerContent{
         grid-template-columns: 1fr;
         text-align: center;
-        /* justify-items: unset; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -459,7 +453,6 @@ body{
     .socialIcons{
         justify-content: center;
         width: 100%;
-        /* align-items: center; */
     }
 
     .footerColumn img{

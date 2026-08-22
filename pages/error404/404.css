@@ -56,14 +56,14 @@
 
 
 .nav-link{
-    color: var(--color-blanco);
+    color: #FFFFFF;
 }
 .navbar1{
     margin-right: 25px;
     color: var(--color-blanco);
 }
 .navbar1:hover{
-    color: var(--color-secundario)
+    color: #00d9ff;
 }
 
 @media (max-width: 991.98px) {
@@ -106,6 +106,7 @@
     background-image: linear-gradient(to right, #7b2fff, #00d9ff);
     color: var(--color-blanco);
     border: none;
+    text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
     font-weight: 600;
@@ -122,4 +123,9 @@
 .btn-suscribite:hover{
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(123, 47, 255, 0.4);
+}
+
+.image-404{
+    height: 100%;
+    width: 100%;
 }

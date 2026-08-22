@@ -254,7 +254,6 @@ body{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        /* grid-template-columns: repeat(3, 1fr); */ 
         gap: 30px;
         max-width: 1200px;
         margin: 0 auto;
@@ -263,10 +262,6 @@ body{
 
 
     .footerColumn img{
-    /*  font-family: 'Poppins', sans-serif;
-        color: #22D3EE;
-        margin-bottom: 15px;
-        font-size: 20px; */
         height: 150px;
         width: auto;
 }
@@ -315,7 +310,6 @@ body{
     .footerContent{
         grid-template-columns: 1fr;
         text-align: center;
-        /* justify-items: unset; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -331,7 +325,6 @@ body{
     .socialIcons{
         justify-content: center;
         width: 100%;
-        /* align-items: center; */
     }
 
     .footerColumn img{

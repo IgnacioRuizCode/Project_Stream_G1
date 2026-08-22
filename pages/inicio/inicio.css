@@ -43,7 +43,6 @@ body{
   }
 
   .navbar-collapse.show form,
-  /* .navbar-collapse.show .navbar1, */
   .navbar-collapse.show .btn-suscribite {
     width: 280px;
     max-width: 90%;      
@@ -63,27 +62,11 @@ body{
 .nav-link{
     color: #FFFFFF;
 }
-/* .navbar1{
-    margin-right: 25px;
-    color: var(--color-blanco);
-    display: none;
-} */
 .navbar1:hover{
     color: var(--color-secundario)
 }
 
-@media (max-width: 991.98px) {
-    /* .navbar1{
-        display: none;
-        display: block;
-        box-sizing: border-box;
-        width: 30%;
-        text-align: center;
-        padding: 8px 16px;
-        border: 1px solid #7b61ff;
-        border-radius: 6px;
-    } */
-}
+
 
 .search-box{
     position: relative;
@@ -165,7 +148,6 @@ body{
 
 .carousel img{
     width: 100%;
-    /* height: 350px; */
     aspect-ratio: 16 / 4;
     object-fit: cover;
     object-position: center;
@@ -199,6 +181,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     color: var(--color-blanco);
+    text-decoration: none;
     font-weight: 600;
     font-size: 18px;
     padding: 0 20px;
@@ -282,7 +265,6 @@ body{
     overflow: hidden;
     aspect-ratio: 5 / 5;
     transition: transform 0.2s ease;
-    /* height: auto; */
     
 }
 
@@ -554,10 +536,6 @@ body{
 
 
     .footerColumn img{
-    /*  font-family: 'Poppins', sans-serif;
-        color: #22D3EE;
-        margin-bottom: 15px;
-        font-size: 20px; */
         height: 150px;
         width: auto;
 }
@@ -582,7 +560,7 @@ body{
 
 .socialIcons{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
@@ -606,7 +584,6 @@ body{
     .footerContent{
         grid-template-columns: 1fr;
         text-align: center;
-        /* justify-items: unset; */
         display: flex;
         flex-direction: column;
         align-items: center;
